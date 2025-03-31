@@ -6,7 +6,7 @@ An example of multiline comment
 def java(){
     echo "Building java project"
     sh '''
-      mvn clean install
+      mvn clean package
     '''
 }
 
